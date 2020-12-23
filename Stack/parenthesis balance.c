@@ -1,3 +1,4 @@
+//WAP to check parenthesis balance in a given expression
 #include<stdio.h>
 #include<string.h>
 char st[20];
@@ -8,7 +9,7 @@ int main()
 {
 char a[20],t;
 int i,f=1;
-scanf(“%s”,&a);
+scanf(“%c”,&a);
 for(i=0;i<strlen(a);i++)
 {
 if(a[i]=='(‘||a[i]=='{‘||a[i]=='[‘)

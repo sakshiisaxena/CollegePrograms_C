@@ -1,3 +1,4 @@
+//WAP to implement cqueue
 #include<stdio.h>
 # define MAX 5
 int cqueue_arr[MAX];
@@ -64,6 +65,7 @@ if( front_pos <= rear_pos )
 while(front_pos <= rear_pos)
 {
 printf("%d ",cqueue_arr[front_pos]);
+printf("\n");
 front_pos++;
 }
 else

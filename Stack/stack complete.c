@@ -1,3 +1,4 @@
+//implementation of basic operations of stack
 #include<stdio.h>
 #include<conio.h>
 #include<dos.h>

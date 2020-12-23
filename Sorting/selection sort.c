@@ -1,3 +1,4 @@
+//selection sort
 #include <stdio.h>
 int main()
 {
@@ -25,5 +26,4 @@ int main()
   printf("Sorted list is -\n");
   for (i = 0; i < n; i++)
     printf("%d\n", a[i]);
-
 }
